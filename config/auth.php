@@ -83,7 +83,7 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\Owner::class,
         ],
-        'users' => [
+        'admin' => [
             'driver' => 'eloquent',
             'model' => App\Models\Admin::class,
         ],
